@@ -1,0 +1,35 @@
+body {
+    background-color: palevioletred;
+}
+
+h1 {
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    color: darkslategray;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 30px;
+}
+
+img {
+    box-shadow: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 30px;
+}
