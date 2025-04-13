@@ -2,6 +2,7 @@
 <html lang="en"><html>
 <head>
     <title>Pokemon Project</title>
+    <!--link to separate CSS stylesheet-->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -15,6 +16,7 @@
         <form>
             <!--input area-->
             <label for="character">Character Name</label><br>
+            <!--define input id "charName" to use user's input in JavaScript API pull-->
             <input type="text" id="charName" name="character name"><br><br>   
             <!--submit button-->
             <button id="submit">Submit!</button>
@@ -22,11 +24,12 @@
     </div>
     <br><br>
 
-    <div class="container" id="pokemonRetrieved">
-
+    <!--define div container as 'pokemonRetrieved' to use JS to print the returned data from API pull-->
+    <div class="container" id = "pokemonRetrieved">
     </div>
     <br><br><br>
 
+<!--link to separate JS script-->
 <script src="script.js"></script>
 
 </body>

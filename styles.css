@@ -1,5 +1,5 @@
 body {
-    background-color: palevioletred;
+    background-color: rgb(230, 223, 184);
 }
 
 h1 {
@@ -7,6 +7,12 @@ h1 {
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(72, 81, 110);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3 {
